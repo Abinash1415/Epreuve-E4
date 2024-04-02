@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <title>Contact | Portfolio d'Abinash</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <link href="../layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  <body id="top">
+    <!--------------------------- En-tête --------------------------->
+    <div class="wrapper row1">
+      <header id="header" class="hoc clear"> 
+        <!-- Redirection vers l'acceuil -->
+        <div id="logo" class="fl_left">
+          <h1><a href="../index.html">Portfolio Abinash</a></h1>
+        </div>
+        <!-- Numéro de contact -->
+        <div id="quickinfo" class="fl_right">
+          <ul class="nospace inline">
+            <li><strong>Numéro: </strong><br>
+              +33 7 83 70 76 72</li>
+            <li><strong>Mail:</strong><br>
+              Obiabinash2@gmail.com</li>
+          </ul>
+        </div>
+      </header>
+    </div>
+    <!--------------------------- Menu de navigation --------------------------->
+    <div class="wrapper row2">
+      <nav id="mainav" class="hoc clear"> 
+        <ul class="clear">
+          <!-- Accueil -->
+          <li><a href="../index.html">Acceuil</a></li>
+          <!-- Veille informatique -->
+          <li><a href="../pages/veille/1.html">Veilles informatique</a></li>
+          <!-- Expérience -->
+          <li><a class="drop" href="../pages/stage1.html">Stage BTS</a>
+            <ul>
+                  <li><a href="../pages/stage1.html">Première année</a></li>
+                  <li><a href="../pages/stage2.html">Deuxième année</a></li>
+            </ul>
+          </li>
+          <!-- Certification -->
+          <li><a href="../pages/certification.html">Certification</a></li>
+          <!-- Mes projets -->
+          <li><a href="../pages/projet.html">Mes projets</a></li>
+          <!-- Contact -->
+          <li class="active"><a href="../pages/contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!--------------------------- page --------------------------->
+    <div class="wrapper bgded overlay" style="background-image:url('../images/demo/backgrounds/nav.jpg');">
+      <main class="hoc container clear">
+        <!-- main body -->
+        <ul class="nospace group services"></ul>
+        <div class="clear"></div>
+      </main>
+    </div>
+    <!--------------------------- Partie Réseaux informatique --------------------------->
+    <!-- image vide avec un CSS jaune -->
+    <div class="wrapper bgded overlay light" style="background-image:url('../images/demo/backgrounds/03.png');">
+      <section class="hoc container clear">
+        <div class="sectiontitle">
+          <h6 class="heading">Voir mes Projets</h6>
+        </div>
+        <div class="group testimonials">
+          <!-- GitHub -->
+          <article class="one_half first">
+            <a href="https://github.com/Abinash1415/Project" target="_blank"><img src="../images/demo/contact/github-icon.png" alt="L'image est introuvable"></a>
+            <h6 class="heading">GitHub</h6>
+            <br>Plateforme pour collaborer sur des projets, suivre les modifications et contribuer à l'open source.
+          </article>
+          <!-- GitLab -->
+          <article class="one_half">
+            <a href="https://gitlab.com/Abinash1415/project-repository" target="_blank"><img src="../images/demo/contact/gitlab-icon.png" alt="L'image est introuvable"></a>
+            <h6 class="heading">GitLab</h6>
+            <blockquote>
+              <br> Plateforme intégré pour le cycle de développement logiciel complet, incluant la gestion de code, CI/CD et suivi des incidents.
+            </blockquote>
+          </article>
+        </div>
+      </section>
+    </div>    
+    <!--------------------------- Information en bas des pages --------------------------->
+    <div class="wrapper row4 bgded overlay" style="background-image:url('../images/demo/backgrounds/nav.jpg');">
+      <footer id="footer" class="hoc clear">
+        <!-- 1 -->
+        <div class="one_quarter first">
+          <h6 class="heading">A propos du Portfolio</h6>
+          <p>
+            Ce portfolio a été élaboré avec HTML, CSS et JavaScript, en prenant pour base un modèle dynamique 
+            d'<a href="https://www.elegantthemes.com" target="_blank">OS Templates</a>.
+          </p>
+          <p>
+            Présente mon parcours, mes projets fait durant mon année BTS, rapport de stages, ma veille informatique et des certifications.
+          </p>
+        </div>
+        <!-- 2 -->
+        <div class="one_quarter">
+          <h6 class="heading">navigation</h6>
+          <nav>
+            <ul class="nospace">
+              <li><a href="../index.html"><i class="fa fa-lg fa-home"></i> Accueil</a></li>
+              <li><a href="../pages/veilleInfo.html">Veille informatique</a></li>
+              <li><a href="../pages/stage1.html">Stage BTS</a></li>
+              <li><a href="../pages/stage1.html">1er</a></li>
+              <li><a href="../pages/stage2.html">2ème</a></li>
+              <li><a href="../pages/certification.html">Certification</a></li>
+              <li><a href="../pages/projet.html">Mes projet</a></li>
+              <li><a href="../pages/contact.html">Contact</a></li>
+            </ul>
+          </nav>
+          <ul class="faico clear">
+            <li><a class="faicon-linkedin" href="https://www.linkedin.com/in/abinash-roy-118998269" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+            <li><a class="faicon-instagram" href="https://www.instagram.com/obiwb9?igsh=YzAwZjE1ZTI0Zg==" target="_blank"><i class="fa fa-instagram"></i></a></li>
+            <li><a class="faicon-twitter" href="https://twitter.com/ObiWb9?t=fHzprFKJuCiLyYNyrZEDZg&s=09" target="_blank"><i class="fa fa-twitter"></i></a></li>
+            <li><a class="faicon-google" href="mailto:obiabinash2@gmail.com"><i class="fa fa-google"></i></a></li>
+          </ul>
+        </div>
+        <!-- 3 -->
+        <div class="one_quarter">
+          <h6 class="heading">document téléchargeable</h6>
+          <ul class="nospace linklist">
+            <li><a onclick="downloadCV()">Curriculum vitæ</a></li>
+            <li>
+              <a onclick="downloadOptic()">Rapport de stage Optic You</a>
+              <br><time class="font-xs" datetime="2045-04-06">15 mai - 16 juin 2023</time>           
+            </li>
+            <li>
+              <a onclick="downloadWedoo()">Rapport de stage Wedoomotion Association</a>
+              <br><time class="font-xs" datetime="2045-04-06">15 janvier - 8 mars 2024</time>  
+            </li>
+          </ul>
+        </div>
+        <!-- 4 -->
+        <div class="one_quarter">
+          <h6 class="heading">lien GitHub et GitLab</h6>
+            <ul class="nospace linklist">
+              <li><a href="https://github.com/Abinash1415/Project" target="_blank"><i class="fa fa-lg fa-github"></i> Projet GitHub</a></li>
+              <li><a href="https://gitlab.com/Abinash1415/project-repository" target="_blank"><i class="fa fa-lg fa-gitlab"></i> Projet GitLab</a></li>
+              <!-- Ajouter des lienvers Dribbble | Stack overflow | CodePen ... -->
+            </ul>
+        </div>
+      </footer>
+    </div>
+    <!--------------------------- Liaison JavaScript --------------------------->
+    <!-- Manipulation via JavaScript -->
+    <script src="layout/scripts/jquery.min.js"></script>
+    <!-- Script pour le bouton -->
+    <script src="layout/scripts/jquery.backtotop.js"></script>
+    <!-- Menu déroulant pour mobile -->
+    <script src="layout/scripts/jquery.mobilemenu.js"></script>
+    <!-- Bibliothèque jQuery pour ajouter des fonctionnalités de glissement fluide, de transition d'images, de navigation, de pagination, etc. -->
+    <script src="layout/scripts/jquery.flexslider-min.js"></script>
+  </body>
+</html>
+
+

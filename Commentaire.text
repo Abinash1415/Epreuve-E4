@@ -1,0 +1,172 @@
+PortFolio : 
+   - Changer les nom des fichiers
+   - 
+
+
+<!- ####################################################################################### ->
+<!- ####################################################################################### ->
+
+Nom de différent fichier :
+
+   basic-grid file : 
+      - Structure des pages
+
+   full-width :
+      - Texte
+      - Image
+      - Tableau
+      - Comment section
+
+   gallery :
+      - Affichage de plusieurs élément
+
+   side-bar-left :
+      - Texte
+      - Image
+      - Tableau
+      - Comment section
+      - Menu à gauche
+
+   side-bar-right :
+      - Texte
+      - Image
+      - Tableau
+      - Comment section
+      - Menu à droite
+
+
+<!- ####################################################################################### ->
+<!- ####################################################################################### ->
+
+
+Acueil : (index.html)
+   Partie :
+      Introduction :
+         * Images
+      Sous-menu :
+         * Images 
+      Moi :
+         * Mettre une petite présentation de sois-même
+         * Lien vers mon CV
+         * Titre plus Image à droite
+      Formation :
+         * Images en arrière-plan
+         * Images des formation (ça sera plutôt une image de l'école)
+      Compétence :
+         * Images des compétences (Langage informatique)
+         * Lier l'image vers la page certification
+      Sous-compétence :
+         * A voir si je garde ou pas
+      Bas-de-page :
+         * Reprendre le code de l'espace commentaire du fichier full-width.html
+
+
+<!- ####################################################################################### ->
+<!- ####################################################################################### ->
+
+
+Veilles informatique : (sidebar-left.html)
+   * A mettre le contenu
+   * Les photo etc
+
+
+<!- ####################################################################################### ->
+<!- ####################################################################################### ->
+
+
+Experience : ()
+   Partie : 
+      Stage découverte :
+      Stage aux BTS :
+         Première année :
+         Deuxième année :
+      Job d'été :
+
+
+<!- ####################################################################################### ->
+<!- ####################################################################################### ->
+
+
+Certification : (gallery.html)
+   * Mettre les images
+   * Lien vers la certification pour pouvoir le télécharger
+   * Espace commentaire
+
+
+<!- ####################################################################################### ->
+<!- ####################################################################################### ->
+
+
+Mes projet : (sidebar-right.html)
+   * Menu à droite :
+      * Lien vers les différent projet 
+      * Lien GitHub vers les codes sources
+   * Introduction des projets
+   * Code source via un lien GitHub 
+
+
+<!- ####################################################################################### ->
+<!- ####################################################################################### ->
+
+
+Contact : ()
+   * Je mettrai seulement dans l'espace contact l'espace commentaire
+   * J'utiliserais directement la partie sous-menu des autres fichiers (CSS)
+   * J'ajouterais mes réseaux sociaux : (A voir lequel mettre)
+      - Facebook
+      - Instagram
+      - Twitter (X)
+      - SnapChat
+      - TikTok
+      - WhatApp
+   * J'ajouterais aussi mes réseaux informatique : (A voir lequel mettre)
+      - LinkedIn
+      - GitHub 
+      - Youtube
+      - Pinterest
+      - WeChat
+
+
+<!- ####################################################################################### ->
+<!- ####################################################################################### ->
+
+
+Espace commentaire : 
+
+   <div class="wrapper row3">
+      <main class="hoc container clear"> 
+        <!-- main body -->
+        <div class="content"> 
+          <div id="comments">
+            <h2>espace commentaire</h2>
+            <form action="#" method="post">
+              <div class="one_half first">
+                <label for="name">Nom<span>*</span></label>
+                <input type="text" name="name" id="name" value="" size="22" required>
+              </div>
+              <div class="one_half">
+                <label for="email">Mail <span>*</span></label>
+                <input type="email" name="email" id="email" value="" size="22" required>
+              </div>
+              <!--
+                <div class="one_third">
+                  <label for="url">Website</label>
+                  <input type="url" name="url" id="url" value="" size="22">
+                </div>
+              -->
+              <div class="block clear">
+                <label for="comment">Commentaire</label>
+                <textarea name="comment" id="comment" cols="25" rows="10"></textarea>
+              </div>
+              <div>
+                <input type="submit" name="submit" value="Submit Form">
+                  &nbsp;
+                <input type="reset" name="reset" value="Reset Form">
+              </div>
+            </form>
+          </div>
+        </div>
+        <!-- / main body -->
+        <div class="clear"></div>
+      </main>
+    </div>
